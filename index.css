@@ -1,10 +1,9 @@
 body {
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-left: 6.25rem;
+    padding-right: 6.25rem;
+    padding-top: 6.25rem;
+    padding-bottom: 6.25rem;
     background-color: rgb(36, 40, 47);
-    border: 1px solid red;
     color: white;
 }
 
@@ -12,7 +11,7 @@ h1 {
     font-family: "recursive", sans-serif;
     font-weight: 400;
     font-style: italic;
-    font-size: 71px;
+    font-size: 4.438rem;
     line-height: 1rem;
     color: #FF7575;
 }
@@ -20,7 +19,7 @@ h1 {
 h2 {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
-    font-size: 29px;
+    font-size: 1.813rem;
     line-height: 1rem;
 }
 
@@ -29,7 +28,6 @@ h2 {
 .header-container {
     display: inline-grid;
     grid-template-columns: repeat(2, 1fr);
-    border: 1px solid white;
     width: 100%;
 }
 
@@ -46,8 +44,8 @@ h2 {
     justify-self: end;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
-    font-size: 24px;
-    line-height: 36px;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
     align-self: center;
     margin: 0;
     padding: 0;
@@ -66,7 +64,6 @@ h2 {
     width: 100%;
     height: auto;
     grid-template-rows: 1fr 1fr;
-    border: 1px solid white;
     margin-top: 1rem;
 }
 
@@ -90,12 +87,10 @@ h2 {
     width: 100%;
     height: auto;
     grid-template-columns: repeat(10, 1fr);
-    border: 1px solid white;
 }
 
 .nav-logos {
     grid-column: 1 / 2;
-    border: 1px solid pink;
     justify-self: center;
     align-self: center;
 }
@@ -111,8 +106,8 @@ h2 {
     list-style: None;
     font-family: 'recursive', sans-serif;
     font-style: italic;
-    font-size: 27px;
-    line-height: 32.4px;
+    font-size: 1.688rem;
+    line-height: 2.025rem;
     color: #909090;
     padding-left: 0.6rem;
     padding-right: 0.6rem;
@@ -126,9 +121,9 @@ h2 {
     grid-template-rows: repeat(3, 1fr);
     height: auto;
     width: 100%;
-    gap: 3.2rem;
-    border: 1px, solid, white;
+    gap: 3.4rem;
     margin-top: 3rem;
+    justify-items: center;
 }
 
 /* main-item1 */
@@ -208,4 +203,110 @@ h2 {
     height: 27.438rem;
     display: grid;
     grid-template-rows: repeat(4, 1fr);
+}
+
+.main-item4 {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    background-color: white;
+    border-radius: 1.375rem;
+    color: black;
+    width: 24.375rem;
+    height: 27.438rem;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.main-item5 {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    background-color: white;
+    border-radius: 1.375rem;
+    color: black;
+    width: 24.375rem;
+    height: 27.438rem;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.main-item6 {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+    background-color: white;
+    border-radius: 1.375rem;
+    color: black;
+    width: 24.375rem;
+    height: 27.438rem;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.main-item7 {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+    background-color: white;
+    border-radius: 1.375rem;
+    color: black;
+    width: 24.375rem;
+    height: 27.438rem;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.main-item8 {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+    background-color: white;
+    border-radius: 1.375rem;
+    color: black;
+    width: 24.375rem;
+    height: 27.438rem;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.main-item9 {
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+    background-color: white;
+    border-radius: 1.375rem;
+    color: black;
+    width: 24.375rem;
+    height: 27.438rem;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+}
+
+/* Page Number Selector */
+
+.page-numbers {
+    align-self: center;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.page-numbers ul {
+    display: inline;
+    list-style: none;
+    align-self: center;
+    margin: 0;
+    padding: 0;
+}
+
+.page-numbers li {
+    display: inline;
+    margin: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-family: 'recursive', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 1.563rem;
+    color: #909090;
+}
+
+.page-numbers li.special {
+    border-top: 3px solid #FF7575;
+    color: #FF7575;
+    padding-top: 0.5rem;
 }
